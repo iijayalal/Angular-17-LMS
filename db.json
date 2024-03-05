@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": "f175",
+      "pname": "abc",
+      "tenure": "10",
+      "roi": "12"
+    },
+    {
+      "id": "e2d1",
+      "pname": "edrftg",
+      "tenure": "2",
+      "roi": "44"
+    },
+    {
+      "id": "8f2c",
+      "pname": "edrftg",
+      "tenure": "2",
+      "roi": "12"
+    },
+    {
+      "id": "fa2a",
+      "pname": "jay",
+      "tenure": "12",
+      "roi": "10"
+    },
+    {
+      "id": "6f3c",
+      "pname": "raj",
+      "tenure": "24",
+      "roi": "5"
+    },
+    {
+      "id": "5303",
+      "pname": "aa",
+      "tenure": "5",
+      "roi": "2"
+    },
+    {
+      "id": "a04c",
+      "pname": "sdfg",
+      "tenure": "23",
+      "roi": "4"
+    },
+    {
+      "id": "fdd1",
+      "pname": "Business loan",
+      "tenure": "12",
+      "roi": "24"
+    },
+    {
+      "id": "cc89",
+      "pname": "Personal Loan",
+      "tenure": "24",
+      "roi": "10"
+    },
+    {
+      "id": "0b6f",
+      "pname": "Home Loan",
+      "tenure": "22",
+      "roi": "44"
+    },
+    {
+      "id": "476c",
+      "pname": "Home loan",
+      "tenure": "43",
+      "roi": "54"
+    },
+    {
+      "id": "17b7",
+      "pname": "edrftg",
+      "tenure": "10",
+      "roi": "12"
+    },
+    {
+      "id": "80ef",
+      "pname": "sdfg",
+      "tenure": "2",
+      "roi": "12"
+    }
+  ]
+}

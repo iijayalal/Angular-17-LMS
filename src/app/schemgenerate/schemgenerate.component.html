@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="row">
+        <div class="col-4">
+            <div class="class-main">
+                <form class="dark-form">
+                        <h1>EMI Scheduled</h1>
+                        <hr>
+                        <div class="form-group row p-2">
+                          <label class="col-sm-4 col-form-label" style="font-weight: bold;">Select Plan Name</label>
+                          <div class="col-sm-8">
+                            <select  (change)="onSelectPlan()" #templates class="form-control" id="pid">
+                                <option *ngFor=" let list of previousdata" selected  [value]="list.id">{{list.pname}}</option>
+                            </select>
+                          </div>
+                        </div>
+                        <div class="form-group row p-2">
+                            <label class="col-sm-4 col-form-label" style="font-weight: bold;">Tenure(Months)</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" formControlName="tenure" 
+                                name="Tenure" >
+                            </div>
+                          </div>
+                          <div class="form-group row p-2">
+                            <label class="col-sm-4 col-form-label" style="font-weight: bold;">ROI(%)</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" formControlName="roi" 
+                                name="ROI" >
+                            </div>
+                          </div>
+                          <div class="form-group row p-2">
+                            <label class="col-sm-4 col-form-label" style="font-weight: bold;">Enter Loan Amount</label>
+                            <div class="col-sm-8">
+                                <input type="text" class="form-control" formControlName="lamount" 
+                                name="LoanAmount" >
+                            </div>
+                          </div>
+                      <hr>
+                      <button type="button" class="btn btn-success"style="float: right;">Save</button>
+                  </form>
+            </div>
+
+        </div>
+        <div class="col-8">
+
+        </div>
+    </div>
+</div>
